@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customized T-shirts</title>
+    <link rel="icon" type="image/png" href="icons8-t-shirt-96.png">
+</head>
+<body>
+    <center>
+        <form>
+            <h1><font face="Georgia">&#128085<u>Order Your Customized T-Shirt </u>&#128085;</font></h1>
+            <table align="center" width="500">
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend><font face="Comic Sans MS">T-Shirt Details</font></legend>
+                            <label for="tagline"><font face="Georgia">Tagline on the Shirt:</font></label>
+                            <input type="text" id="tagline" name="tagline" placeholder="Enter your tagline here" required><br><br>
+                            <label for="color"><font face="Georgia">Color:</font></label>
+                            <select id="color" name="color" required>
+                                <option value="">Select color</option>
+                                <option value="white">White</option>
+                                <option value="black">Black</option>
+                                <option value="red">Red</option>
+                                <option value="blue">Blue</option>
+                                <option value="green">Green</option>
+                            </select><br><br>
+
+                            <label for="size"><font face="Georgia">Size:</font></label>
+                            <select id="size" name="size" required>
+                                <option value=""><font face="Georgia">Select size</font></option>
+                                <option value="s">Small</option>
+                                <option value="m">Medium</option>
+                                <option value="l">Large</option>
+                                <option value="xl">Extra Large</option>
+                            </select><br><br>
+
+                            <label for="quantity"><font face="Georgia">Quantity:</font></label>
+                            <input type="number" id="quantity" name="quantity" min="1" placeholder="1" required><br><br>
+                            <label for="delivery-date"><font face="Georgia">Delivery Date:</font></label>
+                            <input type="date" id="delivery-date" name="delivery-date" required><br><br>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <fieldset><br>
+                            <legend><font face="Comic Sans MS">Delivery Details &#127873</font></legend>
+                            <label for="name"><font face="Georgia">Recipient's name:</font></label>
+                            <input type="text" id="name" name="name" placeholder="Enter the recipient's name"><br><br>
+                            <label for="address"><font face="Georgia">Address:</font></label>
+                            <input type="text" id="address" name="address" placeholder="Enter your address"><br><br>
+                        </fieldset><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit"><font face="Georgia">Submit Order</font></button>
+                        <button type="reset"><font face="Georgia">Reset Form</font></button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
